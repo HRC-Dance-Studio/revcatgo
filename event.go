@@ -45,6 +45,7 @@ type Event struct {
 	TransferredFrom          []string             `json:"transferred_from"`
 	TransferredTo            []string             `json:"transferred_to"`
 	CountryCode              string               `json:"country_code"`
+	OfferCode                null.String          `json:"offer_code"`
 }
 
 // IsExpired checks whether a subscription is expired or not.
