@@ -18,7 +18,7 @@ type Subscriber struct {
 	ManagementURL     null.String                  `json:"management_url"`
 	OriginalAppUserID null.String                  `json:"original_app_user_id"`
 	Subscriptions     map[string]Subscription      `json:"subscriptions"`
-	NonSubscription   map[string][]NonSubscription `json:"non_subscriptions"`
+	NonSubscriptions  map[string][]NonSubscription `json:"non_subscriptions"`
 }
 
 type Entitlement struct {
